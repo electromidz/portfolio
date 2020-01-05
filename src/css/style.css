@@ -1,25 +1,51 @@
+/* 
+#F78888 pink
+#F3D250 yellow
+#ECECEC white
+#90CCF4 light blue
+#5DA2D5 blue
+ */
 body{
-    margin: 0;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECECEC;
 }
 
 header{
-    background: #03a9f4;
+    height: 200px;
+    background-color: #5DA2D5;
     text-align: center;
 }
 header div{
-    background: #03a9f4;
-    margin-top: 30px;
+    background: #5DA2D5;
+    margin-top: 0px;
     text-align: left;
 }
 
 .logo{
+    height: 600px;
     color: #000;
     font-size: 40px;
     font-family: 'Ubuntu';
     text-align: center;
+    background-color: #F78888;
 }
 
 header input{
     font-size: 20px;
-    margin: 20px 0;
+    margin: 0px;
+}
+
+footer div{
+    background-color: #F3D250;
+    height: 200px;
+    text-align: center;
+}
+
+.fter{
+    background-color: #F3D250;
+    height: 200px;
+    text-align: center;
 }

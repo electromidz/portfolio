@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './component/header';
+import Footer from './component/footer';
 import './css/style.css';
 
 function ListNumber (props){
@@ -13,12 +14,13 @@ function ListNumber (props){
 
 const num = [1,2,3,4,5];
 
-const Sample = () => {
+const App = () => {
     return <div>
-            <Header />
-            <ListNumber number={num}/>
+            <Header/>
+            {/* <ListNumber number={num}/> */}
             <h3 className="logo">Omid Moghadas</h3>
+            <Footer/>
            </div>
 }
 
-ReactDOM.render(<Sample/>,document.querySelector('#root'));
+ReactDOM.render(<App/>,document.querySelector('#root'));
