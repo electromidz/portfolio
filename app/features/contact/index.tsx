@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>contact</div>;
+  return <div className="h-screen snap-center">contact</div>;
 }
