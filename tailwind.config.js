@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        animate: "animate 2s infinite ease alternate",
+      },
       backgroundImage: {
         "hero-pattern": "url('/img/andre.jpg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

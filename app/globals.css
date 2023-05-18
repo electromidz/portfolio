@@ -30,3 +30,8 @@ body {
     display: none;
   } */
 }
+@keyframes animate {
+  to {
+    transform: translateY(20px);
+  }
+}
