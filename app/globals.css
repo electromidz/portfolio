@@ -35,3 +35,27 @@ body {
     transform: translateY(20px);
   }
 }
+
+li {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  position: relative;
+}
+li:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: palevioletred;
+  width: 0%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+li:hover:after {
+  animation: moveText 0.5s linear both;
+}
+@keyframes moveText {
+  to {
+    width: 100%;
+  }
+}
