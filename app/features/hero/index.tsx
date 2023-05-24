@@ -27,7 +27,6 @@ export default function Home() {
             width={800}
             height={600}
             alt="astronomer"
-            // fill
             style={{ objectFit: "contain" }}
           />
         </div>
