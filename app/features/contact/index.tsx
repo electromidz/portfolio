@@ -1,3 +1,4 @@
+import Map from "./Map";
 export default function Contact() {
   const data = [
     "Web Design",
@@ -108,7 +109,9 @@ export default function Contact() {
           </section>
         </div>
 
-        <div className="flex-1">{/* 3D model */}</div>
+        <div className="flex-1">
+          <Map />
+        </div>
       </div>
     </div>
   );

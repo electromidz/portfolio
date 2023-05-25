@@ -7,7 +7,7 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
-const MapChart = () => {
+const Map = () => {
   return (
     <ComposableMap
       projection="geoAzimuthalEqualArea"
@@ -47,4 +47,4 @@ const MapChart = () => {
   );
 };
 
-export default MapChart;
+export default Map;
