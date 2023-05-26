@@ -29,7 +29,7 @@ const Map = () => {
           ))
         }
       </Geographies>
-      <Annotation
+      {/* <Annotation
         subject={[2.3522, 48.8566]}
         dx={-90}
         dy={-30}
@@ -42,7 +42,7 @@ const Map = () => {
         <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#F53">
           {"Paris"}
         </text>
-      </Annotation>
+      </Annotation> */}
     </ComposableMap>
   );
 };
